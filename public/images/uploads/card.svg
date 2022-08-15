@@ -1,0 +1,53 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 388.3 690.6">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #142133;
+      }
+
+      .cls-2 {
+        fill: #101824;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #fed504;
+      }
+
+      .cls-4 {
+        fill: #fed504;
+      }
+
+      .cls-5 {
+        fill: #878787;
+      }
+
+      .cls-6 {
+        font-size: 21px;
+        fill: #fff;
+        font-family: Cairo-Regular, Cairo;
+      }
+    </style>
+  </defs>
+  <polygon class="cls-1" points="387.2 0.4 0 0.4 0 568 387.2 332 387.2 0.4"/>
+  <polygon class="cls-2" points="0 568 0 690.6 387.2 690.6 387.2 332 0 568"/>
+  <line class="cls-3" x1="37" y1="541.8" x2="364.3" y2="345.5"/>
+  <rect class="cls-4" x="39.7" y="337.4" width="202.9" height="5.9"/>
+  <g>
+    <g>
+      <polygon class="cls-5" points="94.7 74.1 112.5 97.3 117 91.4 94.7 62.4 94.7 74.1"/>
+      <polygon class="cls-5" points="117 91.4 130.3 74.1 130.3 62.4 114 83.7 117 91.4"/>
+      <polygon class="cls-5" points="130.3 57.9 112.5 71.3 112.5 71.2 94.7 57.9 112.5 80.8 130.3 57.9"/>
+    </g>
+    <g>
+      <path class="cls-5" d="M141.7,64.2h4.7l3.8,18.2h1.5l3.8-18.2h4.7l-5.1,22.1h-8.3Z"/>
+      <path class="cls-5" d="M175.4,82.3h-7.7l-.9,4h-4.5l5-22.1h8.5l5,22.1h-4.5Zm-3-14.4h-1.6l-2.2,10.5h6Z"/>
+      <path class="cls-5" d="M202.5,64.2V86.3h-7.4l-5.5-18.2h-.3V86.3h-4.5V64.2h7.6l5.3,18.2h.3V64.2Z"/>
+      <path class="cls-5" d="M212.3,68.1h-5.9v-4h16.2v4h-5.8V86.2h-4.5Z"/>
+      <path class="cls-5" d="M231,68.1v5.2h7.9v3.8H231v5.3h9.8v3.9H226.5V64.2h14.3v3.9Z"/>
+      <path class="cls-5" d="M263.3,64.2V86.3h-7.4l-5.5-18.2h-.3V86.3h-4.5V64.2h7.6l5.3,18.2h.3V64.2Z"/>
+      <path class="cls-5" d="M280.4,82.3h-7.7l-.9,4h-4.5l5-22.1h8.5l5,22.1h-4.5Zm-3.1-14.4h-1.6l-2.2,10.5h6Z"/>
+    </g>
+  </g>
+  <text class="cls-6" transform="translate(40.3 368.07)">Chief Executive Officer</text>
+</svg>

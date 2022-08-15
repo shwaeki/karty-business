@@ -1,0 +1,129 @@
+:root {
+    --bs-primary-rgb: 90, 90, 180;
+    --bs-secondary-rgb: 80, 100, 110;
+
+    /*
+           --bs-primary-rgb: 105,120,250 ;
+       --gradient-color1:#7f70f5;
+        --gradient-color2:#0ea0ff;*/
+
+    --gradient-color1: #5a5aaa;
+    --gradient-color2: #020759e0;
+}
+
+
+body {
+    font-family: Cairo, serif;
+    accent-color: rgba(var(--bs-primary-rgb), 1);
+}
+
+a {
+    text-decoration: none;
+}
+
+.alert {
+    border-radius: 0;
+}
+
+.btn-outline-primary {
+    color: rgba(var(--bs-primary-rgb), 1);
+    border-color: rgba(var(--bs-primary-rgb), 1);
+}
+
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: rgba(var(--bs-primary-rgb), 1);
+    border-color: rgba(var(--bs-primary-rgb), 1);
+}
+
+.btn-primary {
+    border-radius: 0;
+    background-color: rgba(var(--bs-primary-rgb), 1);
+    border-color: rgba(var(--bs-primary-rgb), 1);
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: rgba(var(--bs-primary-rgb), 0.85);
+    border-color: rgba(var(--bs-primary-rgb), 0.85);
+}
+
+
+.btn-check:focus+.btn-primary, .btn-primary:focus {
+    color: #fff;
+    background-color: rgba(var(--bs-primary-rgb), 0.85);
+    border-color: rgba(var(--bs-primary-rgb), 0.85);
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background: linear-gradient(120deg, var(--gradient-color1), var(--gradient-color2)) !important;
+}
+
+.border-primary {
+    border-color: rgba(var(--bs-primary-rgb), 1)!important;
+}
+
+.btn-check:focus+.btn, .btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0.25rem rgba(var(--bs-primary-rgb), 0.25);
+}
+.nav-link {
+    font-size: 18px;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    color: #ffffff;
+}
+
+.text-gradient {
+    background: linear-gradient(120deg, var(--gradient-color1), var(--gradient-color2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gradient {
+    background: linear-gradient(120deg, var(--gradient-color1), var(--gradient-color2));
+    color: #fff;
+}
+
+.gradient-bg {
+    background: url(../../images/site/texture.png) repeat, linear-gradient(120deg, var(--gradient-color1), var(--gradient-color2));
+    color: #fff;
+}
+
+[type="radio"]:checked {
+    background: rgba(var(--bs-primary-rgb), 1);
+    color: #fff !important;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-button {
+    width: 8px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(var(--bs-primary-rgb), 1);
+    border: none;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #7d7d7d;
+}
+
+
+.m-section {
+    margin-bottom: 100px;
+}
